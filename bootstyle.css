@@ -1,7 +1,7 @@
 body{
 	width:100%;
 	max-width: 960px;
-	margin:0 auto;
+	margin:0;
 	background-image:url("assets/images/squared_metal.png") ;
 }
 
@@ -23,7 +23,8 @@ body{
 
 .myname {
 	background-color:#4aaaa5;
-	padding:20px;
+	padding-top: 30px;
+    height: 100px;
 }
 
 .name{
@@ -39,10 +40,10 @@ body{
 }
 
 nav{
-	margin:30px;
 	text-align:center;
 	background-color: white;
 	color:#d3d3d3;
+	padding-top: 40px;
 }
 
 .navlink{
@@ -52,12 +53,14 @@ nav{
 
 .aboutmebody{
 	background-color: white;
-	margin-bottom: 50px;
+	margin: 0 15px 50px 0;
 }
 .portfoliobody {
 	background-color: white;
 	width:400px;
 	height:475px;
+	margin-right:40px;
+	margin-bottom:50px;
 }
 
 .subhead{
@@ -79,7 +82,7 @@ nav{
 	margin:20px 10px 10px 10px;
 }
 .deed{
-	margin:30px 20px 0px 50px;
+	margin:30px 0px 0px 35px;
 
 }
 
@@ -91,7 +94,7 @@ nav{
 .deedlabel{
 	position:relative;
 	float:left;
-	bottom:20px;
+	bottom:25px;
 	width:125px;
 	color:white;
 	background-color: #4aaaa5;
@@ -102,7 +105,7 @@ nav{
 	background-color: white;
 	width: 400px;
 	height:460px;
-	margin:20px 40px 0px 0px;
+	margin-bottom: 50px;
 }
 form{
 	margin:20px 30px 20px 30px;
@@ -145,7 +148,7 @@ textarea{
 .icon{
 	height:20%;
 	width:20%;
-	margin: 30px 0px 0px 25px;
+	margin: 35px 0px 0px 20px;
 }
 .soicon{
 	float:left;
